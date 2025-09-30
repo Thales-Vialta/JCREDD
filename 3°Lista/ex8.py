@@ -2,6 +2,11 @@ class Node:
     def __init__(self, value):
         self.value = value
         self.next = None 
+class DoubleNode: 
+    def __init__(self, value):
+        self.value = value 
+        self.prev = None
+        self.next = None
 def separar_pares_impares():
     n = int(input("Quantos números deseja cadastrar? "))
     pares = None
